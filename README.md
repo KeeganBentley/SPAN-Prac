@@ -32,7 +32,7 @@ Destination Ports      : Fa0/24
 
 To verify the SPAN is functioning, rerun the ping and look for the ICMP packets on the sniffer. 
 
-This exercise effectively demonstrates the basic configuration and use of a SPAN port for monitoring network traffic. However, it also highlights some limitations inherent in both the SPAN technique and the use of simulation tools like Packet Tracer:
+This exercise effectively demonstrates the basic configuration and use of a SPAN port for monitoring network traffic. However, it is important to remember the limitations inherent in the SPAN technique when utilising it on a production network:
 
 **Resource Limitations:**
 SPAN sessions can place additional load on the switch, especially if multiple sessions or high-traffic ports are monitored. This can lead to resource contention, potentially impacting network performance.
